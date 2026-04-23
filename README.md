@@ -21,7 +21,7 @@ w.DocumentComplete:connect(function()
 	w:SetBody([==[
 		<script language="VBScript">
 		Set WshShell = CreateObject("WScript.Shell")
-		WshShell.Run "calc.exe"
+		WshShell.Run "start calc.exe"
 		</script>
 	]==])
 	w:Show()
